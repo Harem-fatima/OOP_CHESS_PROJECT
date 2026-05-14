@@ -36,3 +36,4 @@ int main()
     // Simple system beep to signal the game has started
     cout << '\a';
     // (The game loop logic is handled in Part 2)
+}
