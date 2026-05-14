@@ -1,0 +1,22 @@
+# --- Graphics & Assets ---
+# Only ignore these if you have huge temporary Photoshop/GIMP files. 
+# Do NOT ignore .png or .wav if they are your actual game assets.
+*.psd
+*.xcf
+
+# --- Logs and Databases ---
+*.log
+*.sqlite
+*.db
+
+# --- Backup/Temp Files ---
+*.bak
+*.tmp
+*~
+.DS_Store
+
+# --- Academic or Personal Notes ---
+# If you have rough drafts or grading rubrics you don't want public
+notes.txt
+todo.md
+rubric.pdf
