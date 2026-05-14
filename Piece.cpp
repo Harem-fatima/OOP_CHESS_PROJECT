@@ -1,8 +1,4 @@
 #include "ChessPieces.h"
-
-// ==========================================
-// Base Class: Piece
-// ==========================================
 Piece::Piece(bool white, char sym)
 {
     isWhite = white;
