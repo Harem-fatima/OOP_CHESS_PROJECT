@@ -1,7 +1,6 @@
 #include "Chess.h"
-
-// Constructor: Initializes an empty 8x8 grid
-Board::Board() {
+Board::Board()
+{
     capturedWhite = "";
     capturedBlack = "";
     for (int i = 0; i < 8; i++) 
@@ -12,7 +11,6 @@ Board::Board() {
         }
     }
 }
-
 // Destructor: Cleans up all pieces to prevent memory leaks
 Board::~Board() 
 {
